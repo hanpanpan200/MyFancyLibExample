@@ -3052,6 +3052,10 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+"react-native-my-fancy-lib@https://github.com/hanpanpan200/MyFancyLib.git":
+  version "1.0.0"
+  resolved "https://github.com/hanpanpan200/MyFancyLib.git#0f83b54a396ab37e341ca736db47e295b7a75c6b"
+
 react-native@0.46.3:
   version "0.46.3"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.46.3.tgz#8fe95131143f1d87bd3ac12e73b4523a44ff0ce9"

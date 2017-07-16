@@ -9,10 +9,16 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  NativeModules,
 } from 'react-native';
+import RNMyFancyLib from 'react-native-my-fancy-lib'
 
 export default class LibCreatorDemo extends Component {
+  componentDidMount() {
+    RNMyFancyLib.sayHello()
+  }
+
   render() {
     return (
       <View style={styles.container}>
