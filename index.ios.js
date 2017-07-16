@@ -16,6 +16,7 @@ import RNMyFancyLib from 'react-native-my-fancy-lib'
 
 export default class LibCreatorDemo extends Component {
   componentDidMount() {
+    console.log('RNMyFancyLib>>>>>>>', RNMyFancyLib)
     RNMyFancyLib.sayHello()
   }
 
